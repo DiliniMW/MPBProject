@@ -1,0 +1,373 @@
+init-params: initializing eigensolver data
+Computing 8 bands with 1.000000e-07 tolerance.
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 1, 0)
+     (0, 0, 1)
+Cell volume = 1
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 1, -0)
+     (0, -0, 1)
+Geometric objects:
+     block, center = (0,0,0)
+          size (100,100,0.75)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 64, mu = 1
+     cylinder, center = (0,0,0)
+          radius 1, height 0.75, axis (0, 0, 1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 1 and 18 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+Allocating fields...
+16 k-points:
+     (0,0,0)
+     (0.1,0,0)
+     (0.2,0,0)
+     (0.3,0,0)
+     (0.4,0,0)
+     (0.5,0,0)
+     (0.5,0.1,0)
+     (0.5,0.2,0)
+     (0.5,0.3,0)
+     (0.5,0.4,0)
+     (0.5,0.5,0)
+     (0.4,0.4,0)
+     (0.3,0.3,0)
+     (0.2,0.2,0)
+     (0.1,0.1,0)
+     (0,0,0)
+Solving for band polarization: te.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-1, mean 1, harm. mean 1, 0% > 1, 100% "fill"
+Outputting sq-slab-epsilon...
+solve_kpoint (0,0,0):
+tefreqs:, k index, k1, k2, k3, kmag/2pi, te band 1, te band 2, te band 3, te band 4, te band 5, te band 6, te band 7, te band 8
+Solving for bands 2 to 8...
+    linmin: converged after 8 iterations.
+    linmin: converged after 8 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 2 to 8 after 8 iterations.
+tefreqs:, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1.41421, 1.41421, 1.41421
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.1,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 5 iterations.
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 2 iterations.
+tefreqs:, 2, 0.1, 0, 0, 0.1, 0.1, 0.9, 1.00499, 1.00499, 1.1, 1.34536, 1.34536, 1.48661
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.2,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 3, 0.2, 0, 0, 0.2, 0.2, 0.8, 1.0198, 1.0198, 1.2, 1.28062, 1.28062, 1.56205
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.3,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 4, 0.3, 0, 0, 0.3, 0.3, 0.7, 1.04403, 1.04403, 1.22066, 1.22066, 1.3, 1.64012
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.4,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 5, 0.4, 0, 0, 0.4, 0.4, 0.6, 1.07703, 1.07703, 1.16619, 1.16619, 1.4, 1.72047
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 8 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 2 iterations.
+tefreqs:, 6, 0.5, 0, 0, 0.5, 0.5, 0.540694, 1.12899, 1.13313, 1.13455, 1.1377, 1.51255, 1.7013
+elapsed time for k point: 1 seconds.
+solve_kpoint (0.5,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 8 iterations.
+tefreqs:, 7, 0.5, 0.1, 0, 0.509902, 0.509902, 0.509902, 1.02956, 1.02956, 1.2083, 1.2083, 1.50333, 1.50333
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 8, 0.5, 0.2, 0, 0.538516, 0.538516, 0.538516, 0.943398, 0.943398, 1.3, 1.3, 1.51327, 1.51327
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 9, 0.5, 0.3, 0, 0.583095, 0.583095, 0.583095, 0.860233, 0.860233, 1.39284, 1.39284, 1.52971, 1.52971
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 10, 0.5, 0.4, 0, 0.640312, 0.640312, 0.640312, 0.781025, 0.781025, 1.48661, 1.48661, 1.55242, 1.55242
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.5,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 11, 0.5, 0.5, 0, 0.707107, 0.707107, 0.707107, 0.707107, 0.707107, 1.58114, 1.58114, 1.58114, 1.58114
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.4,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 12, 0.4, 0.4, 0, 0.565685, 0.565685, 0.72111, 0.72111, 0.848528, 1.45602, 1.45602, 1.52315, 1.64924
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.3,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 8 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 2 iterations.
+tefreqs:, 13, 0.3, 0.3, 0, 0.424264, 0.424264, 0.762981, 0.774387, 0.997821, 1.33752, 1.3973, 1.47966, 1.55998
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.2,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 5 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 7 iterations.
+tefreqs:, 14, 0.2, 0.2, 0, 0.282843, 0.282843, 0.824621, 0.824621, 1.13137, 1.21655, 1.21655, 1.44222, 1.44222
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.1,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tefreqs:, 15, 0.1, 0.1, 0, 0.141421, 0.141421, 0.905539, 0.905539, 1.10454, 1.10454, 1.27279, 1.42127, 1.42127
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 2 to 8 after 1 iterations.
+tefreqs:, 16, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1.41421, 1.41421, 1.41421
+elapsed time for k point: 0 seconds.
+Band 1 range: 0.0 at #(0.0 0.0 0.0) to 0.7071067811865476 at #(0.5 0.5 0.0)
+Band 2 range: 0.5099019524063914 at #(0.5 0.10000000000000003 0.0) to 1.0000000001098879 at #(0.0 0.0 0.0)
+Band 3 range: 0.7071067811865561 at #(0.5 0.5 0.0) to 1.128991044104317 at #(0.5 0.0 0.0)
+Band 4 range: 0.7071067811865577 at #(0.5 0.5 0.0) to 1.133131395978543 at #(0.5 0.0 0.0)
+Band 5 range: 1.0000000000091585 at #(0.0 0.0 0.0) to 1.5811388300841887 at #(0.5 0.5 0.0)
+Band 6 range: 1.1377038484077113 at #(0.5 0.0 0.0) to 1.5811388300841909 at #(0.5 0.5 0.0)
+Band 7 range: 1.2806248474977904 at #(0.20000000000000004 0.0 0.0) to 1.5811388300841946 at #(0.5 0.5 0.0)
+Band 8 range: 1.4142135624066499 at #(0.0 0.0 0.0) to 1.720465053400529 at #(0.4 0.0 0.0)
+total elapsed time for run: 1 seconds.
+done.
+init-params: initializing eigensolver data
+Computing 8 bands with 1.000000e-07 tolerance.
+Working in 2 dimensions.
+Grid size is 32 x 32 x 1.
+Solving for 8 bands at a time.
+Creating Maxwell data...
+Mesh size is 3.
+Lattice vectors:
+     (1, 0, 0)
+     (0, 1, 0)
+     (0, 0, 1)
+Cell volume = 1
+Reciprocal lattice vectors (/ 2 pi):
+     (1, -0, 0)
+     (-0, 1, -0)
+     (0, -0, 1)
+Geometric objects:
+     block, center = (0,0,0)
+          size (100,100,0.75)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          epsilon = 64, mu = 1
+     cylinder, center = (0,0,0)
+          radius 1, height 0.75, axis (0, 0, 1)
+          epsilon = 1, mu = 1
+Geometric object tree has depth 1 and 18 object nodes (vs. 2 actual objects)
+Initializing epsilon function...
+16 k-points:
+     (0,0,0)
+     (0.1,0,0)
+     (0.2,0,0)
+     (0.3,0,0)
+     (0.4,0,0)
+     (0.5,0,0)
+     (0.5,0.1,0)
+     (0.5,0.2,0)
+     (0.5,0.3,0)
+     (0.5,0.4,0)
+     (0.5,0.5,0)
+     (0.4,0.4,0)
+     (0.3,0.3,0)
+     (0.2,0.2,0)
+     (0.1,0.1,0)
+     (0,0,0)
+Solving for band polarization: tm.
+Initializing fields to random numbers...
+elapsed time for initialization: 0 seconds.
+epsilon: 1-1, mean 1, harm. mean 1, 0% > 1, 100% "fill"
+Outputting sq-slab-epsilon...
+solve_kpoint (0,0,0):
+tmfreqs:, k index, k1, k2, k3, kmag/2pi, tm band 1, tm band 2, tm band 3, tm band 4, tm band 5, tm band 6, tm band 7, tm band 8
+Solving for bands 2 to 8...
+    linmin: converged after 8 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 2 to 8 after 8 iterations.
+tmfreqs:, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1.41421, 1.41421, 1.41421
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.1,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 5 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 2 iterations.
+tmfreqs:, 2, 0.1, 0, 0, 0.1, 0.1, 0.9, 1.00499, 1.00499, 1.1, 1.34536, 1.34536, 1.48661
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.2,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 3, 0.2, 0, 0, 0.2, 0.2, 0.8, 1.0198, 1.0198, 1.2, 1.28062, 1.28062, 1.56205
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.3,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 4, 0.3, 0, 0, 0.3, 0.3, 0.7, 1.04403, 1.04403, 1.22066, 1.22066, 1.3, 1.64012
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.4,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 5, 0.4, 0, 0, 0.4, 0.4, 0.6, 1.07703, 1.07703, 1.16619, 1.16619, 1.4, 1.72047
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0,0):
+Solving for bands 1 to 8...
+    linmin: converged after 10 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 2 iterations.
+tmfreqs:, 6, 0.5, 0, 0, 0.5, 0.5, 0.531276, 1.1231, 1.12932, 1.1313, 1.13303, 1.51009, 1.74067
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 4 iterations.
+    linmin: converged after 5 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 8 iterations.
+tmfreqs:, 7, 0.5, 0.1, 0, 0.509902, 0.509902, 0.509902, 1.02956, 1.02956, 1.2083, 1.2083, 1.50333, 1.50333
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 8, 0.5, 0.2, 0, 0.538516, 0.538516, 0.538516, 0.943398, 0.943398, 1.3, 1.3, 1.51327, 1.51327
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 9, 0.5, 0.3, 0, 0.583095, 0.583095, 0.583095, 0.860233, 0.860233, 1.39284, 1.39284, 1.52971, 1.52971
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 10, 0.5, 0.4, 0, 0.640312, 0.640312, 0.640312, 0.781025, 0.781025, 1.48661, 1.48661, 1.55242, 1.55242
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.5,0.5,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 11, 0.5, 0.5, 0, 0.707107, 0.707107, 0.707107, 0.707107, 0.707107, 1.58114, 1.58114, 1.58114, 1.58114
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.4,0.4,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 12, 0.4, 0.4, 0, 0.565685, 0.565685, 0.72111, 0.72111, 0.848528, 1.45602, 1.45602, 1.52315, 1.64924
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.3,0.3,0):
+Solving for bands 1 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 1 to 8 after 1 iterations.
+tmfreqs:, 13, 0.3, 0.3, 0, 0.424264, 0.424264, 0.761577, 0.761577, 0.989949, 1.33417, 1.33417, 1.47648, 1.72627
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.2,0.2,0):
+Solving for bands 1 to 8...
+    linmin: converged after 7 iterations.
+    linmin: converged after 5 iterations.
+    linmin: converged after 5 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 3 iterations.
+Finished solving for bands 1 to 8 after 14 iterations.
+tmfreqs:, 14, 0.2, 0.2, 0, 0.282843, 0.282843, 0.82502, 0.827988, 1.13268, 1.21803, 1.22034, 1.44312, 1.80426
+elapsed time for k point: 0 seconds.
+solve_kpoint (0.1,0.1,0):
+Solving for bands 1 to 8...
+    linmin: converged after 5 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 5 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 6 iterations.
+    linmin: converged after 4 iterations.
+    linmin: converged after 3 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+    linmin: converged after 2 iterations.
+Finished solving for bands 1 to 8 after 11 iterations.
+tmfreqs:, 15, 0.1, 0.1, 0, 0.141421, 0.141421, 0.905539, 0.905539, 1.10454, 1.10454, 1.27279, 1.42127, 1.42127
+elapsed time for k point: 0 seconds.
+solve_kpoint (0,0,0):
+Solving for bands 2 to 8...
+    linmin: converged after 1 iterations.
+Finished solving for bands 2 to 8 after 1 iterations.
+tmfreqs:, 16, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1.41421, 1.41421, 1.41421
+elapsed time for k point: 0 seconds.
+Band 1 range: 0.0 at #(0.0 0.0 0.0) to 0.7071067811865477 at #(0.5 0.5 0.0)
+Band 2 range: 0.5099019518564942 at #(0.5 0.10000000000000003 0.0) to 1.0000000001910323 at #(0.0 0.0 0.0)
+Band 3 range: 0.7071067811870243 at #(0.5 0.5 0.0) to 1.123102447642257 at #(0.5 0.0 0.0)
+Band 4 range: 0.7071067811874199 at #(0.5 0.5 0.0) to 1.1326770462120057 at #(0.2 0.2 0.0)
+Band 5 range: 1.0000000002531648 at #(0.0 0.0 0.0) to 1.5811388300843814 at #(0.5 0.5 0.0)
+Band 6 range: 1.1330281152183441 at #(0.5 0.0 0.0) to 1.5811388300844471 at #(0.5 0.5 0.0)
+Band 7 range: 1.280624847607172 at #(0.20000000000000004 0.0 0.0) to 1.5811388300847942 at #(0.5 0.5 0.0)
+Band 8 range: 1.414213562498147 at #(0.0 0.0 0.0) to 1.8042581288891462 at #(0.2 0.2 0.0)
+total elapsed time for run: 0 seconds.
+done.
