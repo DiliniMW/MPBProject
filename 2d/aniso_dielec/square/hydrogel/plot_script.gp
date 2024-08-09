@@ -6,7 +6,7 @@ set xlabel 'k index'
 set ylabel 'Frequency (c/a)'
 set xrange [1:16]
 set yrange [0:0.4]
-set xtics("Γ" 1, " " 2, " " 3, " " 4, " " 5, "M" 6," " 7," " 8," " 9," " 10, "K" 11," " 12," " 13," " 14," " 15, "Γ" 16)
+set xtics("Γ" 1, " " 2, " " 3, " " 4, " " 5, "X" 6," " 7," " 8," " 9," " 10, "M" 11," " 12," " 13," " 14," " 15, "Γ" 16)
 set ytics 0.05
 set grid xtics ytics
 

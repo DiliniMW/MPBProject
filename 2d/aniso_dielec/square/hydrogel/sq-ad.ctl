@@ -8,8 +8,8 @@
 
 (define-param kz 0) ; use non-zero kz to consider vertical propagation
 (set! k-points (list (vector3 0 0 kz)          ; Gamma
-                     (vector3 0.5 0 kz)        ; M
-                     (vector3 0.5 0.5 kz)      ; K
+                     (vector3 0.5 0 kz)        ; X
+                     (vector3 0.5 0.5 kz)      ; M
                      (vector3 0 0 kz)))	       ; Gamma
 
 (set! k-points (interpolate 4 k-points))
