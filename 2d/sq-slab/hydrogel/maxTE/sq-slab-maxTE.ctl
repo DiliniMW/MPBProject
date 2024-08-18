@@ -12,7 +12,7 @@
 		    (make cylinder (material air)
 		  (center 0) (radius r) (height h))))
 (run-te)
-  (retrieve-gap 1)) ; return the gap from TE band 4 to TE band 5
+  (retrieve-gap 1)) ; return the gap from TE band 1 to TE band 2
 
 (set! num-bands 2)
 (define-param kz 0) ; use non-zero kz to consider vertical propagation
